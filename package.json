@@ -1,0 +1,62 @@
+{
+  "name": "minelev-buddy-dummy",
+  "description": "Dummy data for minelev buddy",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Jonas Enge",
+    "email": "jonas.enge@gmail.com",
+    "url": "https://github.com/maccyber"
+  },
+  "contributors": [
+    {
+      "name": "Geir Gåsodden",
+      "email": "geir.gasodden@pythonia.no",
+      "url": "https://github.com/zrrrzzt"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=7.7.1"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "start": "micro",
+    "now-deploy": "npm test && now --npm -E && now alias"
+  },
+  "keywords": [
+    "microservice",
+    "micro",
+    "minelev"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telemark/minelev-buddy-dummy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/minelev-buddy-dummy/issues"
+  },
+  "now": {
+    "alias": "",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
+  "devDependencies": {
+    "ava": "0.18.2",
+    "coveralls": "2.11.16",
+    "nsp": "2.6.2",
+    "nyc": "10.1.2",
+    "standard": "8.6.0",
+    "test-listen": "1.0.1"
+  },
+  "dependencies": {
+    "micro": "7.1.0",
+    "micro-match": "0.1.2"
+  }
+}
