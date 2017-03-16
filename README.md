@@ -6,7 +6,9 @@
 
 A dummy version of the buddy api for MinElev demoes
 
+# API
 
+It supports the same calls as [buddy-minelev-api](https://github.com/telemark/buddy-minelev-api)
 
 [MIT](LICENSE)
 
