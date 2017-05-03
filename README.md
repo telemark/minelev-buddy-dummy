@@ -4,6 +4,12 @@
 
 # minelev-buddy-dummy
 
+A dummy version of the buddy api for MinElev demoes
+
+# API
+
+It supports the same calls as [buddy-minelev-api](https://github.com/telemark/buddy-minelev-api)
+
 [MIT](LICENSE)
 
-![alt text](https://robots.kebabstudios.party/minelev-buddy-dummy.png "Robohash image of minelev-buddy-dummy")
+![Robohash image of minelev-buddy-dummy](https://robots.kebabstudios.party/minelev-buddy-dummy.png "Robohash image of minelev-buddy-dummy")

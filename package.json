@@ -1,7 +1,7 @@
 {
   "name": "minelev-buddy-dummy",
   "description": "Dummy data for minelev buddy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "private": true,
   "author": {
@@ -18,7 +18,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=7.7.1"
+    "node": ">=7.7.3"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -27,7 +27,7 @@
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
     "start": "micro",
-    "now-deploy": "npm test && now --npm -E && now alias"
+    "now-deploy": "npm test && now --npm && now alias"
   },
   "keywords": [
     "microservice",
@@ -41,22 +41,25 @@
   "bugs": {
     "url": "https://github.com/telemark/minelev-buddy-dummy/issues"
   },
+  "homepage": "https://github.com/telemark/minelev-buddy-dummy",
   "now": {
-    "alias": "",
+    "alias": "dummy.buddy.minelev.t-fk.win",
     "env": {
       "NODE_ENV": "production"
     }
   },
   "devDependencies": {
-    "ava": "0.18.2",
-    "coveralls": "2.12.0",
+    "ava": "0.19.1",
+    "axios": "0.16.1",
+    "coveralls": "2.13.1",
     "nsp": "2.6.3",
-    "nyc": "10.1.2",
-    "standard": "9.0.1",
-    "test-listen": "1.0.1"
+    "nyc": "10.3.0",
+    "standard": "10.0.2",
+    "test-listen": "1.0.2"
   },
   "dependencies": {
-    "micro": "7.1.0",
+    "marked": "0.3.6",
+    "micro": "7.3.2",
     "micro-match": "0.1.2"
   }
 }
