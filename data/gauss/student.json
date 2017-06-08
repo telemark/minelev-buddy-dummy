@@ -1,13 +1,13 @@
 [
-  {
-    "firstName": "Helge Grim",
+ {
+    "firstName": "Thomas",
     "middleName": null,
-    "lastName": "Grim",
-    "fullName": "Helge Grim",
-    "personalIdNumber": "02059711111",
+    "lastName": "Topstad",
+    "fullName": "Thomas Topstad",
+    "personalIdNumber": "01010750160",
     "mobilePhone": "+4798888888",
-    "mail": "helgeg@hotmail.com",
-    "userName": "0205helgeg",
+    "mail": "thomas.topstad@hotmail.com",
+    "userName": "0107top",
     "contactTeacher": false,
     "unitId": "BAMVS",
     "unitName": "Bamble vgs. avd. Grasmyr",
@@ -25,3 +25,4 @@
     ]
   }
 ]
+
