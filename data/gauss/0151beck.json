@@ -1,0 +1,28 @@
+[
+ {
+    "firstName": "Finn",
+    "middleName": "",
+    "lastName": "Beck",
+    "fullName": "Finn Beck",
+    "personalIdNumber": "01015100172",
+    "mobilePhone": "+4741111111",
+    "mail": "finn.beck@gmail.com",
+    "userName": "0151beck",
+    "contactTeacher": true,
+    "unitId": "BAMVS",
+    "unitName": "Bamble vgs. avd. Grasmyr",
+    "organizationNumber": "NO974568098",
+    "mainGroupName": "BAMVS:1ST",
+    "groups": [
+      {
+        "id": "BAMVS:1ST/151FSP5091",
+        "description": "Spansk I, 1. år",
+        "unitId": "BAMVS",
+        "unitName": "Bamble vgs. avd. Grasmyr",
+        "organizationNumber": "NO974568098",
+        "contactTeacher": true
+      }
+    ]
+  }
+]
+

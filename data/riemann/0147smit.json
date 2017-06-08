@@ -1,0 +1,27 @@
+[
+ {
+    "firstName": "Paul",
+    "middleName": "",
+    "lastName": "Smith",
+    "fullName": "Paul Smith",
+    "personalIdNumber": "01014700230",
+    "mobilePhone": "+4741111111",
+    "mail": "paul.smith@gmail.com",
+    "userName": "0147smit",
+    "contactTeacher": true,
+    "unitId": "BAMVS",
+    "unitName": "Bamble vgs. avd. Grasmyr",
+    "organizationNumber": "NO974568098",
+    "mainGroupName": "BAMVS:1ST",
+    "groups": [
+      {
+        "id": "BAMVS:1ST/151FSP5091",
+        "description": "Spansk I, 1. år",
+        "unitId": "BAMVS",
+        "unitName": "Bamble vgs. avd. Grasmyr",
+        "organizationNumber": "NO974568098",
+        "contactTeacher": true
+      }
+    ]
+  }
+]
