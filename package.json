@@ -27,7 +27,7 @@
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
     "start": "micro",
-    "now-deploy": "npm test && now --npm -E demo.env && now alias",
+    "now-deploy": "npm test && now --npm -E demo.env && now alias"
   },
   "keywords": [
     "microservice",
@@ -43,7 +43,7 @@
   },
   "homepage": "https://github.com/telemark/minelev-buddy-dummy",
   "now": {
-    "alias": "dummy.buddy.minelev.t-fk.win",
+    "alias": "buddy.minelev.win",
     "env": {
       "NODE_ENV": "production"
     }
