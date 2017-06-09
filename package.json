@@ -44,7 +44,7 @@
   "homepage": "https://github.com/telemark/minelev-buddy-dummy",
   "now": {
     "alias": [
-      "buddy.minelev.win"
+      "dummy.buddy.minelev.win"
     ],
     "env": {
       "NODE_ENV": "production"
