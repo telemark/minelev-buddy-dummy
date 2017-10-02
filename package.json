@@ -1,7 +1,7 @@
 {
   "name": "minelev-buddy-dummy",
   "description": "Dummy data for minelev buddy",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "license": "MIT",
   "private": true,
   "author": {
@@ -18,7 +18,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=8.1.0"
+    "node": ">=8.6.0"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -27,7 +27,7 @@
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
     "start": "micro",
-    "now-deploy": "npm test && now --npm -E production.env && now alias"
+    "now-deploy": "npm test && now --npm && now alias"
   },
   "keywords": [
     "microservice",
@@ -46,24 +46,24 @@
     "alias": [
       "dummy.buddy.minelev.win"
     ],
-    "env": {
-      "NODE_ENV": "production"
-    }
+    "type": "npm",
+    "dotenv": "production.env"
   },
   "devDependencies": {
-    "ava": "0.19.1",
-    "axios": "0.16.1",
-    "coveralls": "2.13.1",
-    "nsp": "2.6.3",
-    "nyc": "11.0.2",
-    "standard": "10.0.2",
+    "ava": "0.22.0",
+    "axios": "0.16.2",
+    "coveralls": "3.0.0",
+    "micro-dev": "1.2.3",
+    "nsp": "2.8.1",
+    "nyc": "11.2.1",
+    "standard": "10.0.3",
     "test-listen": "1.0.2"
   },
   "dependencies": {
-    "marked": "0.3.6",
-    "micro": "7.3.3",
+    "markdown-it": "8.4.0",
+    "micro": "9.0.0",
     "micro-match": "0.1.2",
-    "winston": "2.3.1",
+    "winston": "2.4.0",
     "winston-papertrail": "1.0.5"
   }
 }

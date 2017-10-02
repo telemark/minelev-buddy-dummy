@@ -43,8 +43,9 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-# yarn
+# lock files
 yarn.lock
+package-lock.json
 
 # sessions
 sessions
