@@ -64,7 +64,7 @@
   },
   "dependencies": {
     "markdown-it": "8.4.2",
-    "micro": "9.3.2",
+    "micro": "9.3.3",
     "micro-match": "0.2.0",
     "winston": "2.4.3",
     "winston-papertrail": "1.0.5"
