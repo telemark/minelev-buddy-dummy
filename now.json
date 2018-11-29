@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "name": "minelev-buddy-dummy",
+  "alias": [
+    "buddy.minelev.win"
+  ],
+  "type": "docker",
+  "dotenv": "production.env"
+}
