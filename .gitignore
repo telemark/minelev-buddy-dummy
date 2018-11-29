@@ -1,5 +1,6 @@
 # IDE
 .idea
+.vs
 .vscode
 
 # Mac OS
@@ -45,7 +46,6 @@ jspm_packages
 
 # lock files
 yarn.lock
-package-lock.json
 
 # sessions
 sessions
