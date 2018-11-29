@@ -10,5 +10,3 @@ A dummy version of the buddy api for MinElev demoes
 It supports the same calls as [buddy-minelev-api](https://github.com/telemark/buddy-minelev-api)
 
 [MIT](LICENSE)
-
-![Robohash image of minelev-buddy-dummy](https://robots.kebabstudios.party/minelev-buddy-dummy.png "Robohash image of minelev-buddy-dummy")
