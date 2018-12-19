@@ -7,7 +7,8 @@
     "personalIdNumber": "01010750160",
     "mobilePhone": "+4748300000",
     "mail": null,
-    "userName": "0107top"
+    "userName": "0107top",
+    "organizationNumber": "NO974568098"
   },
   {
     "firstName": "Paul",
@@ -17,7 +18,8 @@
     "personalIdNumber": "01014700230",
     "mobilePhone": "+4748300000",
     "mail": "paul.smith@hotmail.com",
-    "userName": "0147smit"
+    "userName": "0147smit",
+    "organizationNumber": "NO974568098"
   },
   {
     "firstName": "Finn",
@@ -27,6 +29,7 @@
     "personalIdNumber": "01015100172",
     "mobilePhone": "+4748300000",
     "mail": "finn.beck@hotmail.com",
-    "userName": "0151beck"
+    "userName": "0151beck",
+    "organizationNumber": "NO974568098"
   }
 ]

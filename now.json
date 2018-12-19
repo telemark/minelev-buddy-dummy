@@ -1,9 +1,15 @@
 {
-  "version": 1,
+  "version": 2,
   "name": "minelev-buddy-dummy",
   "alias": [
     "buddy.minelev.win"
   ],
-  "type": "docker",
-  "dotenv": "production.env"
+  "env": {
+    "NODE_ENV": "production",
+    "PAPERTRAIL_HOST": "@tfk-papertrail-host",
+    "PAPERTRAIL_PORT": "@tfk-papertrail-port"
+  },
+  "builds": [
+    { "src": "/index.js", "use": "@now/node" }
+  ]
 }
