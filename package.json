@@ -1,7 +1,7 @@
 {
   "name": "minelev-buddy-dummy",
   "description": "Dummy data for minelev buddy",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "license": "MIT",
   "private": true,
   "author": {
@@ -18,7 +18,11 @@
   ],
   "main": "index.js",
   "engines": {
+<<<<<<< HEAD
     "node": ">=10.15.1"
+=======
+    "node": ">=10.14.2"
+>>>>>>> 8e4dc8e84584ce98d64f2fa2b4b798192a3f204a
   },
   "scripts": {
     "test": "standard && npm audit && ava",
@@ -44,11 +48,11 @@
   },
   "homepage": "https://github.com/telemark/minelev-buddy-dummy#readme",
   "devDependencies": {
-    "ava": "0.25.0",
+    "ava": "1.2.1",
     "axios": "0.18.0",
     "coveralls": "3.0.2",
     "micro-dev": "3.0.0",
-    "nyc": "13.1.0",
+    "nyc": "13.2.0",
     "standard": "12.0.1",
     "test-listen": "1.1.0"
   },

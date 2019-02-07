@@ -1,6 +1,4 @@
-'use strict'
-
-const readFileSync = require('fs').readFileSync
+const { readFileSync } = require('fs')
 const md = require('markdown-it')()
 const { send } = require('micro')
 const { parse } = require('url')
@@ -14,7 +12,7 @@ module.exports = async (request, response) => {
   } else if (pathname === '/ping') {
     send(response, 200, { ping: 'pong', 'name': pkg.name, version: pkg.version })
   } else if (pathname === '/') {
-    const readme = readFileSync('./README.md', 'utf-8')
+    const readme = readFileSync(`${__dirname}/README.md`, 'utf-8')
     send(response, 200, md.render(readme))
   } else {
     send(response, 200, actionHandler(request))
