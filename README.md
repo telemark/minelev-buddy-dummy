@@ -9,4 +9,20 @@ A dummy version of the buddy api for MinElev demoes
 
 It supports the same calls as [buddy-minelev-api](https://github.com/telemark/buddy-minelev-api)
 
+# Development
+
+Add a .env file
+
+```
+NODE_ENV=development
+PAPERTRAIL_HOST=@tfk-papertrail-host
+PAPERTRAIL_PORT=@tfk-papertrail-port
+```
+
+Start the development server
+
+```
+$ now dev
+```
+
 [MIT](LICENSE)
