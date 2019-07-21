@@ -8,7 +8,8 @@
   "env": {
     "NODE_ENV": "production",
     "PAPERTRAIL_HOST": "@tfk-papertrail-host",
-    "PAPERTRAIL_PORT": "@tfk-papertrail-port"
+    "PAPERTRAIL_PORT": "@tfk-papertrail-port",
+    "PAPERTRAIL_HOSTNAME": "minelev"
   },
   "builds": [
     {
