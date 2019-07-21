@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "minelev-buddy-dummy",
+  "scope": "minelev",
   "alias": [
     "buddy.minelev.win"
   ],
@@ -10,9 +11,37 @@
     "PAPERTRAIL_PORT": "@tfk-papertrail-port"
   },
   "builds": [
-    { "src": "/index.js", "use": "@now/node" }
+    {
+      "src": "/*.md",
+      "use": "@now/md"
+    },
+    {
+      "src": "/api/*.js",
+      "use": "@now/node"
+    },
+    {
+      "src": "/index.js",
+      "use": "@now/node"
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/index.js"}
+    {
+      "src": "/",
+      "dest": "/README.html"
+    },
+    { "src": "/docs",
+      "dest": "/README.html"
+    },
+    { "src": "/favicon.ico",
+      "dest": "/static/favicon.ico"
+    },
+    {
+      "src": "/ping",
+      "dest": "/api/ping.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.js"
+    }
   ]
 }

@@ -25,4 +25,14 @@ Start the development server
 $ now dev
 ```
 
+# Deploy to ZEIT/Now
+
+Run the deployment script
+
+```
+$ npm run deploy
+```
+
+# License
+
 [MIT](LICENSE)
