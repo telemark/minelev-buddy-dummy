@@ -1,7 +1,7 @@
 {
   "name": "minelev-buddy-dummy",
   "description": "Dummy data for minelev buddy",
-  "version": "1.1.7",
+  "version": "2.0.0",
   "license": "MIT",
   "private": true,
   "author": {
